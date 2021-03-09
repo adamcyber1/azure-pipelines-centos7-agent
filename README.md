@@ -2,6 +2,8 @@
 
 This is a custom Azure Pipelines agent built using docker and based upon the Centos7 image. 
 
+[Link to Docker Hub](https://hub.docker.com/repository/docker/adamcyber/azure-pipelines-centos7-agent)
+
 ## Why?
 
 Microsoft maintains a [set of virtual environments](https://github.com/actions/virtual-environments) for Github actions and Microsoft-hosted agents for Azure pipelines. 
@@ -36,11 +38,6 @@ docker run \
   -e AZP_AGENT_NAME=mydockeragent \
   azure-pipelines-centos7-agent:latest
 Once the agent is running, it will appear in the list of agents in the specified DevOps pipeline agent pool.
-
-## When
-
-ummm, now? Forever? (and always?)
-
 
 ## Acknowledgements
 
